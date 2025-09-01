@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>persanal info port</title>
+    <link rel="stylesheet" href="styleindex.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/98d418bab4.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <div id="hedder">
+        <div class="container">
+            <nav>
+                <img src=" class="logo" alt="kartik">
+                <ul id="sidemenu">
+                    <li><a href="#hedder">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                   
+                    <li><a href="#portfolio">skill</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>hi, i'm <span>Kartik</span> <br>Mali</h1>
+           </div>
+            <br>
+            <h3>A passionate Web & .NET <br>Developer:</h3>
+        </div>
+</div>
+<!-- ------------ /about----------------------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./port/my.jpg" alt=" img">
+            </div>
+            <div class="about-col-1">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a <b> Computer Science </b> graduate with a strong interest in web development and programming. My core technical skills include <b>HTML, CSS, JavaScript, SQL, and .NET </b>. I have worked on projects that apply these skills to solve real-world problems.
+I enjoy learning and exploring new technologies to improve my knowledge continuously. I am adaptable, quick to learn, and comfortable working in different environments.</p>
+                <div class="tab-title">
+                    <p class="tab-links active-link " onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experence')">Experence</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>web Developer</span><br> develope a web page using html,css,js</li>
+                        <li><span>c programing</span><br> i know the bascies of c and it is parent of all language</li>
+                        <li><span>SQL&PL/SQL</span><br> i deploy the data ni server. and know the CRUD operations </li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Experence">
+                    <ul>
+                        <li><span>internship </span><br> Completed internship under the Skill India program.Gained practical exposure to programming and real-world project work.Improved problem-solving, teamwork, and communication skills.  </li>
+                       
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>BE-Computer Science Engineering</span><br><b>government engineering college,gangavathi </b><br>completed with 70%</li>
+                        <li><span>HSC</span><br> NES,Madgyal <br>completed with 81%</li>
+                        <li><span>SSC</span><br> NES,Madgyal <br> completed with 68%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- --------------services---------------- -->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Online Voting System:  </h2>
+                <p>
+                    The Online Voting System is a web-based application that allows voters to cast their votes electronically through 
+                    the internet in a secure and efficient manner. It ensures proper authentication, maintains voter privacy, and 
+                    eliminates the need for physical gatherings, making the process faster and more reliable. This project supports the 
+                    vision of Digital India by promoting paperless and contactless governance, while also addressing challenges such as 
+                    long queues, manual errors, and limited accessibility in traditional voting. By integrating technology into the 
+                    electoral process, it aims to make voting more transparent, convenient, and accessible to all.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Face Recognition Attendance System: </h2>
+                <p>The Face Recognition Based Attendance System is designed to automate the process of marking attendance using facial recognition technology. It captures and analyzes facial features of individuals through a camera, matches them with the stored database, and automatically updates attendance records. This system eliminates manual errors, prevents proxy attendance, and saves time compared to traditional methods like roll calls or biometric punching. It offers a fast, secure, and user-friendly solution suitable for schools, colleges, and workplaces.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cloud"></i>
+                <h2>AI Career Coach:</h2>
+                <p>The AI Career Coach is an intelligent application designed to assist individuals in their career development journey by leveraging Artificial Intelligence. Built with a Python backend, it uses Natural Language Processing (NLP) for understanding user queries and integrates the GPT API to generate personalized and context-aware responses. The system provides features such as interview preparation, resume building, and cover letter generation, helping users present themselves more effectively in the job market. By combining AI-driven insights with user-friendly interaction, this project aims to make career guidance more accessible, personalized, and efficient,</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------- portfolio--------------- -->
+ 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> Skills</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./port/img1.webp" alt="1st work img">
+                <div class="layer">
+                    <h3>HTML & CSS</h3>
+                    <p>I use HTML to make the structure of web pages and CSS to design them, making websites look good and work well on all devices.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./port/img2.webp" alt="2st work img">
+                <div class="layer">
+                    <h3>JavaScript</h3>
+                    <p>I use JavaScript to add interactivity and dynamic features to websites, such as form validation, animations, and API integration.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./port/img3.webp" alt="3st work img">
+                <div class="layer">
+                    <h3>SQL / PL-SQL</h3>
+                    <p>I use SQL to store and retrieve data from databases, and PL/SQL to write procedures, functions, and queries for better performance and automation.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>      
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- contact--------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">countact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>kartikmali9765@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>7517648136</p>
+
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./images/Template 2.docx" download class="btn btn2">Downlod cv</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="name" placeholder="your Name" required>
+                    <input type="email" name="email" placeholder="your Email" required>
+                    <textarea name="message"rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>copyright @ kartik. made with my <i class="fa-solid fa-heart"></i> portpoliyo website</p>
+    </div>
+
+</div>
+</section>
+</body>
+</html>
